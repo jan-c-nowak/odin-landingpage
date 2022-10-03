@@ -16,6 +16,7 @@ body {
 .header ul {
     list-style: none;
     padding: 0;
+    
 }
 
 .header li {
@@ -34,6 +35,7 @@ body {
     color: #F9FAF8;
     font-family: sans-serif;
     font-weight: 600;
+    flex: 1 1 auto;
 }
 
 /*CONTENT BOX 1 PROPERTIES*/
@@ -51,6 +53,7 @@ body {
     width: 450px;
     height: 200px;
     object-fit: none;
+    flex: 1 1 auto;
 }
 
 .content-1 .left {
@@ -60,6 +63,7 @@ body {
     width: 450px;
     height: 200px;
     gap: 10px;
+    flex: 1 1 auto;
 }
 
 .content-1 .big-text {
@@ -139,4 +143,50 @@ body {
     color: black;
     font-weight: bold;
     font-size: 24px;
+}
+
+.content-4 {
+    padding: 100px 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: auto;
+    height: 175px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 100px;
+}
+
+.border {
+    border-style: solid;
+    border-color:#F9FAF8;
+    height: 30px;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.content-4 .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px 20px;
 }
